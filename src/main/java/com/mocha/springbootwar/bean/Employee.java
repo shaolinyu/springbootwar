@@ -1,54 +1,60 @@
 package com.mocha.springbootwar.bean;
 
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableName;
+
+import java.util.Date;
+
+@TableName("emp")
 public class Employee {
 
-    private Integer id;
+    private Integer empno;
 
-    private String lastName;
+    private String ename;
 
-    private Integer gender;
+    private String job;
 
-    private String email;
+    private Integer mgr;
 
-    private Integer dId;
+    private Date hiredate;
 
-    public Integer getId() {
-        return id;
+    public Integer getEmpno() {
+        return empno;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setEmpno(Integer empno) {
+        this.empno = empno;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getEname() {
+        return ename;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setEname(String ename) {
+        this.ename = ename;
     }
 
-    public Integer getGender() {
-        return gender;
+    public String getJob() {
+        return job;
     }
 
-    public void setGender(Integer gender) {
-        this.gender = gender;
+    public void setJob(String job) {
+        this.job = job;
     }
 
-    public String getEmail() {
-        return email;
+    public Integer getMgr() {
+        return mgr;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setMgr(Integer mgr) {
+        this.mgr = mgr;
     }
 
-    public Integer getdId() {
-        return dId;
+    public Date getHiredate() {
+        return hiredate;
     }
 
-    public void setdId(Integer dId) {
-        this.dId = dId;
+    public void setHiredate(Date hiredate) {
+        this.hiredate = hiredate;
     }
 }

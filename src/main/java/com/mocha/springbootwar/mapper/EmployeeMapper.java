@@ -1,13 +1,15 @@
 package com.mocha.springbootwar.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.mocha.springbootwar.bean.Employee;
 import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Component;
 
-@Mapper
-public interface EmployeeMapper {
+import java.util.List;
 
-    public int addEmployee(Employee employee);
+@Component
+public interface EmployeeMapper extends BaseMapper<Employee> {
 
-    public Employee getEmpById(Integer id);
+    public List<Employee> getAll();
 
 }

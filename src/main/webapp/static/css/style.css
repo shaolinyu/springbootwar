@@ -1,0 +1,137 @@
+/* index */
+.bg{background:#f5fcff url(../img/back.jpg) repeat-x top;}
+.top-logo{padding:25px 0;}
+.top-logo .top-logo-box{width: 1200px;margin: 0 auto;}
+
+.wrapper{width: 1200px;margin:0 auto;}
+.wrapper .top-title{text-align: center;font-size:20px;font-weight:500; height: 60px;line-height: 60px;
+background: #fff;box-shadow: 0 1px 5px #ccc;border:1px solid #c2e1ff;color: #141414;}
+.modle{margin-top: 15px;}
+
+.left-box{float: left;background: #fff; border:1px solid #c4dfff;width:30%;box-shadow: 0 1px 5px #ccc;}
+.left-box h1{height:31px;line-height:31px; font-size:15px;padding: 0 10px;color: #7e8095;font-weight:600;}
+.left-box h1 .more{font-family:"Microsoft YaHei";font-size: 12px;color: #5aa4fb;font-weight:400;}
+.left-box h1 .line-left{display: inline-block;margin-right: 5px; height:18px;width:4px;background: #0b88fc;border-radius: 4px;
+margin-top:6px;}
+
+.left-box .tab-content{height:480px; display: none;}
+.left-box .tab-content li{height: 30px; line-height: 30px;padding: 0 10px;}
+.left-box .tab-content li span{float: right;color: #9d9d9d;}
+.left-box .tab-top{height: 30px;line-height: 30px;font-size: 14px;font-weight:500;margin:0 0 10px 10px;}
+.left-box .tab-top span{display: inline-block;width:32%;text-align: center;cursor: pointer;}
+.left-box .tab-top span.active{height: 30px;border-bottom: 2px solid #2d7df9;color:#2b92fb;}
+
+.left-box .tab-content .number{display: inline-block; width: 18px; background: url(../img/number.png) no-repeat; height: 18px;
+text-align: center;line-height: 18px;color: #fff;margin-right: 10px;font-size: 12px;text-align: center;}
+.left-box .tab-content .number2{background-position:0 -29px;}
+.left-box .tab-content .number3{background-position:0 -61px;}
+.left-box .tab-content .number4{background-position:0 -91px;}
+.left-box .tab-content .number5{background-position:0 -124px;}
+.left-box .tab-content .number6{background-position:0 -154px;}
+.left-box .on{display: block;}
+.middle{float: left;background: #fff; border:1px solid #c4dfff;width:37%;box-shadow: 0 1px 5px #ccc;
+margin-left: 15px;}
+.middle h1{height:31px;line-height:31px; font-size:15px;padding: 0 10px;color: #7e8095;font-weight:600;}
+.middle h1 .more{font-family:"Microsoft YaHei";font-size: 12px;color: #5aa4fb;font-weight:400;}
+.middle h1 .line-left{display: inline-block;margin-right: 5px; height:18px;width:4px;background: #0b88fc;border-radius: 4px;
+margin-top:6px;}
+
+.m-content{float: left; width:30%;margin-left:15px;}
+.h530{height: 551px;}
+.h464{height: 433px;}
+.tab-list{margin: 10px 8px 0;height:390px;}
+.tab-list table{width: 100%;}
+.tab-list table th{padding:5px 5px;background: #f2f3f7;font-weight: normal;color: #7e8095;}
+.tab-list table td{text-align: center;padding:10px 5px;font-size: 12px;color: #7e8095;}
+.green{color: #37b70c!important;}
+.red{color: #dd3f36!important;}
+.tab-list table tr:nth-of-type(even){background: #fafafa;}
+.tab-list table tr:hover{background: #e7f3ff;}
+
+.chart-box{width: 100%; height:515px;}
+.chart-box2{width: 100%; height:400px;}
+.chart-box3{width: 100%; height:500px;margin-bottom: 30px;}
+
+/* commission sytle */
+.comm-cont{border: 1px solid #c4dfff;box-shadow:0px 1px 5px #ccc;background: #fff;margin-top: 15px;
+padding: 10px 20px;height: auto;}
+.filter-box-w{width:91%;}
+.filter-box-w2{width:82%;}
+.filter-box-w3{width:79%;}
+.from1 .title{width:100px;height: 32px;line-height: 32px;text-align: right;}
+.color-red{color: #fe0000;}
+
+.from2{width: 100%;}
+.from2 .infor{display: inline-block; margin-top: 10px; height: 32px; line-height: 32px;width:49.777%;}
+.from2 .infor .title{width:100px;text-align: right;}
+.from2 .infor .infor-input{width:79%; border:1px solid #e6e6e6;height: 32px; line-height: 32px;padding: 0 10px;}
+.from2 .infor .infor-input2{width:39.8%; border:1px solid #e6e6e6;height: 32px; line-height: 32px;padding: 0 10px;}
+
+.btn-box{padding: 10px 0; text-align: center;margin-top:5px;}
+.btn-btn{display: inline-block; border-radius:2px;padding: 5px 25px; text-align: center;margin-right: 10px;}
+.btn-blue{background: #45baef;color: #fff; color: #fff;}
+.btn-default{background: #d2d2d2;color: #555;}
+
+.table-item{margin-top:8px;}
+.table-item table{width: 100%;border:1px solid #dcdcdc;}
+.table-item table th{background: #f2f2f2;border:1px solid #dcdcdc;padding:10px 5px;font-size: 12px; color: #555;}
+.table-item table td{border:1px solid #dcdcdc;padding:10px 5px;font-size: 12px;text-align: center;}
+
+.comm-cont h1{height:31px;line-height:31px; font-size:15px;padding: 0 10px;color: #7e8095;font-weight:600;}
+.comm-cont h1 .more{font-family:"Microsoft YaHei";font-size: 12px;color: #5aa4fb;font-weight:400;}
+.comm-cont h1 .line-left{display: inline-block;margin-right: 5px; height:18px;width:4px;background: #0b88fc;border-radius: 4px;
+margin-top:6px;}
+.datainp{width:150px;height:30px;line-height: 30px; border: 1px solid #d4d4d4;background: url(../img/date.png) no-repeat 96% center;}
+/*pages*/
+.pages-box{ width:98%; margin:0px auto;}
+.pages-boxL{ font-size:14px; float:left; color:#666666; padding-top:18px;}
+.pages {margin:10px auto 0 auto; float:right;}
+.pages #Pagination {float: left;overflow: hidden;}
+.pages #Pagination .pagination {height: 40px;text-align: right;font-family: \u5b8b\u4f53,Arial;}
+.pages #Pagination .pagination a,
+.pages #Pagination .pagination span {float: left;display: inline;padding:6px 10px;*padding:6px 10px;border: 1px solid #e6e6e6;background: #f6f6f6;color: #666666;font-size: 14px;cursor: pointer; margin-right:5px;border-radius: 4px;}
+.pages #Pagination .pagination .current {background: #45baef;color: #fff; border:1px solid #45baef;border-radius: 4px;}
+.pages #Pagination .pagination .home,
+.pages #Pagination .pagination .next,
+.pages #Pagination .pagination .prev,
+.pages #Pagination .pagination .next {float: left;padding:6px 7px;border: 1px solid #e6e6e6;background: #f6f6f6;color: #666666;cursor: pointer; border-right:1px solid #e6e6e6 !important;}
+.pages #Pagination .pagination .prev i,
+.pages #Pagination .pagination .next i { display: inline-block;width: 4px;height: 11px;margin-right: 5px;}
+.pages #Pagination .pagination .prev {border-right: none;}
+.pages #Pagination .pagination .prev i {background-position: -138px -2px;*background-position: -138px -4px; width:8px;}
+.pages #Pagination .pagination .next i {background-position: -154px -2px;*background-position: -154px -4px; width:8px;}
+.pages #Pagination .pagination .pagination-break {padding: 4px 5px;border: none;background: none;cursor: default;}
+.pages .searchPage {float: left;}
+.pages .searchPage .page-sum {padding:4px 13px 3px 13px; *padding:0px 13px 4px 13px;color: #999999;font-size: 14px; position:relative;top:-5px; *top:-10px;}
+.pages .searchPage .page-go {padding: 8px 8px;color: #999999;font-family: \u5b8b\u4f53,Arial;font-size: 14px; position:relative;top:-5px; *top:-5px;}
+.pages .searchPage .page-go input {width:15px; padding:6px 14px;margin: 5px 5px 0px 5px;border: 1px solid #e4e4e4; background:#fafcfe;border-radius: 4px;}
+.pages .searchPage .page-btn {margin:0px 0px 5px 5px;height:30px;width:60px; text-align: center; line-height:28px; background: #45baef;border-radius: 4px;color: #666666;font-family: Arial, 'Microsoft YaHei';text-decoration: none; border: 1px solid #e6e6e6; display: inline-block; position:relative; top:-3px;*top:0px;color: #fff;font-size: 12px;}
+
+.footer{margin-top: 15px; text-align: center;font-size: 15px;height: 56px;line-height: 56px;
+background: #ececec;color: #8f91a3;}
+@media (max-width: 1024px) {
+    body{font-size:12px;}
+} /*>=1024的设备*/
+@media (min-width: 1280px) {
+    body{font-size:12px;}
+} /*>=1280的设备*/
+@media (min-width: 1360px) {
+    body{font-size:12px;}
+}
+@media (min-width: 1366px) {
+    body{font-size:12px;}
+}
+@media (min-width: 1440px) {
+    body{font-size:14px;}
+}
+@media (min-width: 1600px) {
+
+}
+
+@media (min-width: 1680px) {
+    body{font-size:15px;}  
+}
+
+@media (min-width:1920px) {
+    body{font-size:16px;}
+}
