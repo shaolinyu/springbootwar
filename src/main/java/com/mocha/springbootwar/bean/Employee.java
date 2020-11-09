@@ -3,58 +3,100 @@ package com.mocha.springbootwar.bean;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 
-import java.util.Date;
-
-@TableName("emp")
+@TableName("employee")
 public class Employee {
 
-    private Integer empno;
+    private Integer id;
 
-    private String ename;
+    @TableField("lastName")
+    private String lastName;
 
-    private String job;
+    private String email;
 
-    private Integer mgr;
+    private Integer gender;
 
-    private Date hiredate;
+    private String dId;
 
-    public Integer getEmpno() {
-        return empno;
+    /**
+     * id.
+     * @return the id
+     */
+    public Integer getId() {
+        return id;
     }
 
-    public void setEmpno(Integer empno) {
-        this.empno = empno;
+    /**
+     * id.
+     * @param id the id to set
+     */
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public String getEname() {
-        return ename;
+    /**
+     * lastName.
+     * @return the lastName
+     */
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setEname(String ename) {
-        this.ename = ename;
+    /**
+     * lastName.
+     * @param lastName the lastName to set
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public String getJob() {
-        return job;
+    /**
+     * email.
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
     }
 
-    public void setJob(String job) {
-        this.job = job;
+    /**
+     * email.
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Integer getMgr() {
-        return mgr;
+    /**
+     * gender.
+     * @return the gender
+     */
+    public Integer getGender() {
+        return gender;
     }
 
-    public void setMgr(Integer mgr) {
-        this.mgr = mgr;
+    /**
+     * gender.
+     * @param gender the gender to set
+     */
+    public void setGender(Integer gender) {
+        this.gender = gender;
     }
 
-    public Date getHiredate() {
-        return hiredate;
+    /**
+     * dId.
+     * @return the dId
+     */
+    public String getdId() {
+        return dId;
     }
 
-    public void setHiredate(Date hiredate) {
-        this.hiredate = hiredate;
+    /**
+     * dId.
+     * @param dId the dId to set
+     */
+    public void setdId(String dId) {
+        this.dId = dId;
     }
+    
+    
+    
 }

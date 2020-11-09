@@ -6,7 +6,7 @@
 
 
     <select id="getAll" resultType="com.mocha.springbootwar.bean.Employee">
-          select  * from emp
+          select  * from employee
     </select>
 
 </mapper>
